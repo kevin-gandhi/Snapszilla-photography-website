@@ -1,0 +1,55 @@
+
+---Downloaded files---
+The import files for: Photograph Free were successfully downloaded!
+Initial max execution time = 180
+Files info:
+Site URL = http://localhost/snapszilla
+Data file = D:\xampp\htdocs\snapszilla\wp-content\plugins\theme-freesia-demo-import\files/dummy/photograph/photograph.wordpress.xml
+Widget file = D:\xampp\htdocs\snapszilla\wp-content\plugins\theme-freesia-demo-import\files/dummy/photograph/photograph-widgets.wie
+Customizer file = D:\xampp\htdocs\snapszilla\wp-content\plugins\theme-freesia-demo-import\files/dummy/photograph/photograph-export.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Main Sidebar : 
+
+Search - No Title - Widget already exists
+Gallery - Latest Photograph - Imported
+photograph_tab_widgets - No Title - Site does not support widget
+
+Side Menu : 
+
+Gallery - Gallery - Imported
+
+Contact Page Sidebar : 
+
+Text - About Us - Imported
+Text - Our Address - Imported
+
+Iframe Code For Google Maps : 
+
+Custom HTML - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---tf-tfdi/after_import---
+

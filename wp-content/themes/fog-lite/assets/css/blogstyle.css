@@ -1,0 +1,683 @@
+
+/* -----------------------------------------
+          Default  css
+ ------------------------------------------ */
+section {
+     padding: 200px 0px;
+}
+ .blog-page h2{
+     font-size: 26px;
+     text-transform: capitalize;
+     font-weight: 600;
+     color: #313131;
+     margin-top: 15px;
+}
+ h3{
+     color: #313131;
+     font-size: 32px;
+     font-weight: 700;
+}
+ .nav li a {
+     text-decoration: none !important;
+     display: inline-block;
+     cursor: pointer;
+     padding: 0px;
+     background-color: transparent;
+     -moz-transition: color 0.3s ease;
+     -o-transition: color 0.3s ease;
+     -webkit-transition: color 0.3s ease;
+     transition: color 0.3s ease;
+}
+ .nav li a:hover {
+     background-color: transparent;
+}
+ .nav li a:focus {
+     background-color: transparent;
+     outline: 0 !important;
+}
+
+
+
+/* ------------------------------------------------------------------
+ Navbar Style 
+ ------------------------------------------------------------------- */
+
+ .navbar-toggler-icon {
+     background-image: url('../assets/icons/ti.svg');
+     background-repeat: no-repeat;
+}
+ .mh-nav {
+     width: 100%;
+}
+ .lo-fixed-nav {
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 99;
+     right: 0;
+}
+ .mh-header {
+     padding: 0;
+     -moz-transition: 0.3s;
+     -o-transition: 0.3s;
+     -webkit-transition: 0.3s;
+     transition: 0.3s;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+     background: #8c8c8c;
+}
+ .mh-header.lo-header-3 {
+     background-color: #fff;
+}
+ .mh-header.lo-header-3 .navbar-nav li {
+     margin: 0 15px;
+}
+ .mh-header.lo-header-3 .navbar-nav li a {
+     color: #2a2a2a;
+}
+ .mh-header.lo-header-3 .navbar-nav li.active a {
+     color: #0EBB86;
+}
+ .mh-header.lo-header-3.nav-strict {
+     background-color: #fff;
+}
+ .mh-header.nav-strict {
+     padding: 0;
+     -moz-transition: 0.3s;
+     -o-transition: 0.3s;
+     -webkit-transition: 0.3s;
+     transition: 0.3s;
+     z-index: 999;
+     background-color: #8c8c8c;
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+}
+ .mh-header .navbar-nav li {
+     margin: 0 15px;
+}
+ .mh-header .navbar-nav li.active a {
+     color: #0EBB86;
+}
+ .mh-header .navbar-nav li a {
+     border-bottom: 1px solid transparent;
+     letter-spacing: 1px;
+     font-family: "google_sansmedium";
+     font-size: 14px;
+     opacity: 1;
+     color: #fff;
+     line-height: 25px;
+}
+ .mh-header .navbar-nav li a.nav-link {
+     padding-left: 0;
+     padding-right: 0;
+}
+ .mh-header .navbar-nav li a:hover {
+     color: #0EBB86;
+}
+ .cl-logo-sec .cl-logo {
+     padding-bottom: 10px;
+}
+
+
+
+/* ------------------------------------------------------------------
+ Blog-post Style 
+ ------------------------------------------------------------------- */
+
+ #Blog-post{
+     min-height: 800px;
+}
+/* Start admin-post */
+ .admin-post-img img{
+     height: auto;
+     width: auto;
+     margin-left: -14px;
+}
+ .admin-post-txt ul li{
+     list-style: none;
+     float: left;
+     padding: 0px 5px;
+}
+ .admin-post-txt {
+     margin-top: 22px;
+     background: #F9F9F9;
+}
+ .admin-post-txt ul {
+     padding-left: 0px;
+}
+ .admin-post-txt ul li a{
+     text-transform: uppercase;
+     font-size: 11px;
+     letter-spacing: 0.5px;
+     color: #9d9c9c;
+}
+ .admin-post-txt ul li a:hover{
+     text-decoration: none;
+     color: #26c293;
+}
+ .admin-post-txt span{
+     padding-left: 8px;
+     color: #9d9c9c;
+}
+ .post-txt{
+     margin-top: 58px;
+     width: 100%;
+     font-size: 15px;
+     color: #9d9c9c;
+}
+ .read-post{
+     float: right;
+     background: #22c492;
+     border: none;
+     font-size: 14px;
+     padding: 8px 18px;
+     border-radius: 4px;
+}
+ .read-post:hover{
+     background: #22c492;
+     color: #fff;
+}
+ .single-admin-post{
+     margin-top: 120px;
+     background: #f9f9f9;
+}
+ .single-post{
+     background: #f9f9f9;
+}
+ .read-post{
+     color: #fff;
+}
+ .read-post:hover{
+     text-decoration: none;
+}
+/* End admin-post style */
+
+
+/* ------------------------------------------------------------------
+              Blog-right site Style start her
+ ------------------------------------------------------------------- */
+ .blog-right{
+     padding-right: 0px;
+     padding-left: 40px;
+}
+ * {
+     box-sizing: border-box;
+}
+ form.example input[type=text] {
+     padding: 14px;
+     font-size: 17px;
+     border: 1px solid transparent;
+     float: left;
+     width: 80%;
+     background: #f9f9f9;
+}
+ form.example button {
+     float: left;
+     width: 12%;
+     padding: 14px;
+     background: #24c392;
+     color: white;
+     font-size: 17px;
+     border: 1px solid transparent;
+     border-left: none;
+     cursor: pointer;
+}
+ form.example button:hover {
+     background: #24c392;
+}
+ form.example::after {
+     content: "";
+     clear: both;
+     display: table;
+}
+ .widget-twitter{
+     margin-top: 45px;
+}
+ .each-twite{
+     margin-top: 35px;
+}
+ .each-twite .fa.fa-twitter{
+     background: #f1f1f1;
+     color: #23c492;
+     font-size: 20px;
+     padding: 15px 16px;
+     border-radius: 50%;
+}
+ .each-twite .fa.fa-twitter:hover{
+     background: #23c492;
+     color: #f1f1f1;
+     transition: .2s;
+}
+ .twit-icon{
+     padding-left: 0px;
+}
+ .span-color{
+     color: #23c492;
+}
+ .each-twite p{
+     width: 80%;
+     color: #9d9c9c;
+     line-height: 28px;
+}
+ .span-time{
+     color: #9d9c9c;
+}
+
+
+/* ---------------------------
+     Widget Area
+  ------------------------------*/
+ .tcd-about .tcd-tabs .nav-tabs {
+     border-bottom: 0;
+     margin-top: 30px;
+}
+ .tcd-about .tcd-tabs .nav-tabs li a {
+     line-height: normal;
+     font-size: 13px;
+     color: #494949;
+     font-weight: 600;
+     padding: 14px 20px;
+     margin-right: 20px;
+     background: #fff;
+     z-index: 10;
+     display: block;
+     position: relative;
+     border-radius: 4px;
+     overflow: hidden;
+     text-align: center;
+     text-transform: uppercase;
+}
+ .tcd-about .tcd-tabs .nav-tabs li a i {
+     margin-right: 8px;
+}
+ .tcd-about .tcd-tabs .nav-tabs li a:hover {
+     color: #23c492;
+}
+ .tcd-about .tcd-tabs .nav-tabs li a.active {
+     color: #23c492 !important;
+     font-weight: 600;
+}
+ .tcd-about .tcd-tabs .nav-tabs li a.active:after {
+     height: 100%;
+}
+ .tcd-about .tcd-tabs .nav-tabs.nav-center {
+     align-items: center;
+     justify-content: center;
+}
+ .tcd-about .tcd-tabs .tab-content {
+     padding: 30px 35px;
+     background: #fff;
+}
+ .tcd-about .tcd-tabs.tc-tabs-right .nav-tabs li a {
+     margin-bottom: 25px;
+     margin-left: 20px;
+}
+ .tcd-about .about-edu .edu-item .degree {
+     margin-bottom: 3px;
+     font-size: 22px;
+     line-height: 32px;
+}
+ .tcd-about .about-edu .edu-item .campus {
+     position: relative;
+     display: block;
+     margin-bottom: 15px;
+     color: #999;
+}
+ .tcd-about .about-edu .edu-item .date {
+     position: absolute;
+     right: 0;
+}
+ .tcd-about .about-edu .edu-item + .edu-item {
+     margin-top: 25px;
+     padding-top: 25px;
+     border-top: 1px solid #f0f0f0;
+}
+ .tcd-about .about-exprnc .exprnc-item .title {
+     margin-bottom: 3px;
+     font-size: 22px;
+     line-height: 32px;
+}
+ .tcd-about .about-exprnc .exprnc-item .company {
+     position: relative;
+     display: block;
+     margin-bottom: 15px;
+     color: #999;
+}
+ .tcd-about .about-exprnc .exprnc-item .date {
+     position: absolute;
+     right: 0;
+}
+ .tcd-about .about-exprnc .exprnc-item + .exprnc-item {
+     margin-top: 25px;
+     padding-top: 25px;
+     border-top: 1px solid #f0f0f0;
+}
+ .tcd-about .about-skills .progress {
+     overflow: visible;
+     margin-top: 30px;
+     box-shadow: none;
+     background: #f5f5f5;
+     padding: 0px;
+     height: 12px;
+     border-radius: 6px;
+}
+ .tcd-about .about-skills .progress + .progress {
+     margin-top: 60px;
+}
+ .tcd-about .about-skills .progress .progress-bar {
+     position: relative;
+     text-align: left;
+     border-radius: 10px;
+     line-height: 30px;
+     margin-left: -1px;
+     box-shadow: none;
+     background-color: #5bbc2e;
+}
+ .tcd-about .about-skills .progress .pb-label {
+     position: absolute;
+     left: 2px;
+     top: -35px;
+     color: #494949;
+     font-size: 16px;
+     font-weight: 600;
+}
+ .tcd-about .about-skills .progress .pb-percent {
+     position: absolute;
+     width: 36px;
+     height: 36px;
+     line-height: 32px;
+     background: #fff;
+     color: #5bbc2e;
+     font-size: 10px;
+     top: 50%;
+     z-index: 10;
+     right: -1px;
+     font-weight: 600;
+     transform: translateY(-50%);
+     border: 2px solid #5bbc2e;
+     border-radius: 50%;
+     text-align: center;
+     text-indent: 3px;
+}
+ .tab-widget-post i{
+     color: #23c492;
+}
+ .tab-widget-post a{
+     padding-left: 18px;
+     color: #9d9c9c;
+     padding-left: 12px;
+}
+ .tab-widget-post a:hover{
+     text-decoration: none;
+     color: #23c492;
+}
+ .widget-txt{
+     margin-top: 25px 
+}
+ .widget-recent-post{
+     margin-top: 50px;
+}
+/* faq style start*/
+ .accordion-section .panel-default > .panel-heading {
+     border: 0px;
+     background: transparent;
+     margin-top: -20px;
+}
+ .accordion-section .panel-default .panel-title a {
+     font-size: 16px;
+     color: #9d9c9c;
+     font-weight: 400;
+}
+ .accordion-section .panel-default .panel-title a:hover {
+     color: #23c492;
+     text-decoration: none;
+}
+ .accordion-section .panel-default .panel-title a:after {
+     font-family: 'FontAwesome';
+     font-style: normal;
+     content: "\f062";
+     color: #9d9c9c;
+     float: right;
+     margin-top: 18px;
+}
+ .accordion-section .panel-default .panel-title a:hover:after {
+     color: #23c492;
+}
+ .accordion-section .panel-default .panel-title a.collapsed:after {
+     content: "\f061";
+}
+ .accordion-section .panel-default .panel-body {
+     font-size: 16px;
+     color: #9d9c9c;
+     font-weight: 400;
+     line-height: 30px;
+}
+/* tag-button start*/
+ .tag-button ul li{
+     list-style: none;
+}
+ .tag-button ul{
+     padding-left: 0px;
+     margin-top: 20px;
+}
+ .tag-button ul li a{
+     color: #9d9c9c;
+     text-transform: uppercase;
+     text-decoration: none;
+     float: left;
+     border: 1px solid #DADADA;
+     border-radius: 15px;
+     padding: 6px 12px;
+     margin: 15px 10px 0px 0px;
+     font-size: 12px;
+}
+ .tag-button ul li a:hover{
+     color: #fff;
+     background: #22c492;
+     border: 1px solid #22c492;
+     transition: .3s;
+}
+
+
+/* ---------------------------
+      fotter start here 
+ ------------------------------*/
+ #fog-footer{
+     min-height: 100px;
+     background: #626463;
+}
+ .fotter-icon ul li{
+     list-style: none;
+     float: left;
+     padding-left: 15px;
+     margin-top: 40px;
+}
+ .fotter-icon ul li a{
+     color: #F2F2F2;
+     border: 1px solid #F2F2F2;
+     padding: 6px 10px;
+     border-radius: 50%;
+}
+ .fog-terms ul li{
+     list-style: none;
+     float: left;
+}
+ .fog-terms ul{
+     margin-top: 40px;
+     padding-left: 0px;
+}
+ .each-terms{
+     border-right: 1px solid #F2F2F2;
+}
+ .fog-terms ul li a{
+     color: #F2F2F2;
+     padding: 8px;
+     text-transform: capitalize;
+}
+ .fog-terms ul li a:hover{
+     text-decoration: none;
+}
+ .fog-copyright{
+     color: #F2F2F2;
+     text-transform: capitalize;
+     margin-top: 40px;
+}
+ .themeflux{
+     margin-left: 5px;
+}
+ .themeflux a{
+     color: #F2F2F2;
+}
+ .themeflux a:hover{
+     color: #22c492;
+     text-decoration: none;
+}
+
+
+/* --------------------------------------------------------------------------------
+                      post page design 
+ ----------------------------------------------------------------------------------*/
+ .blog-page ul li {
+     list-style-type: none;
+     float: left;
+}
+ .blog-page ul{
+     padding-left: 0px;
+     text-transform: uppercase;
+}
+ .blog-page ul li span{
+     color: #9d9c9c;
+}
+ .blog-page ul li a{
+     color: #22c492;
+     font-style: italic;
+     padding: 0px 5px 
+}
+ .post-script p{
+     width: 100%;
+     color: #9d9c9c;
+     font-weight: 400;
+}
+ .post-script {
+     margin-top: 45px;
+}
+ .post-author{
+     min-height: 240px;
+     background: #F9F9F9;
+     margin-top: 50px;
+}
+ .post-author img{
+     height: auto;
+     width: 210px;
+     margin-left: -5px;
+     margin-top: 5px;
+}
+ .author-txt h2{
+     font-size: 18px;
+     text-transform: uppercase;
+     font-weight: 600;
+     color: #24c392;
+}
+ .author-txt h3{
+     font-size: 18px;
+     text-transform: capitalize;
+     font-weight: 600;
+     color: #313131;
+     margin-top: 15px;
+}
+ .author-txt p{
+     color: #9d9c9c;
+     margin-top: 8px;
+     line-height: 28px;
+}
+ .author-txt{
+     margin-top: 45px;
+}
+
+
+/* ------------------------------------------------------------------
+        ====[ Contact Style ]==== 
+ ------------------------------------------------------------------- */
+ .contact-us {
+     min-height: 650px;
+     background: #fff;
+}
+ #contact{
+     margin-top: 60px;
+}
+ .contact-us .form-group {
+     margin-bottom: 0;
+}
+ .contact-us .form-group input {
+     border-color: currentcolor currentcolor #9d9c9c;
+     border-style: none none solid;
+     border-width: 0 0 1px;
+     box-shadow: none;
+     height: 50px;
+     transition: all 0.3s ease 0s;
+     width: 100%;
+     outline: none;
+}
+ .contact-us .form-group textarea {
+     border-color: currentcolor currentcolor #9d9c9c;
+     border-style: none none solid;
+     border-width: 0 0 1px;
+     box-shadow: none;
+     height: 100px;
+     margin-top: 80px;
+     resize: none;
+     transition: all 0.3s ease 0s;
+     width: 100%;
+}
+ .contact-us .form-group input, .contact-us .form-group textarea {
+     margin-bottom: 10px;
+}
+ .contact-us .form-group input:focus, .contact-us .form-group textarea:focus {
+     border-color: #22c492;
+     outline: none;
+}
+ .contact-us .form-group button {
+     background: #22c492;
+     border: medium none;
+     color: #fff;
+     display: block;
+     font-size: 14px;
+     margin: 30px auto 0;
+     padding: 13px 25px;
+     transition: all 0.5s ease 0s;
+     margin-top: 20px;
+     float: right;
+     text-transform: uppercase;
+     border-radius: 5px;
+     font-weight: 600;
+}
+ .form-group h3{
+     font-weight: 400;
+     text-transform: capitalize;
+     margin-bottom: 30px;
+}
+
+
+/* ------------------------------------------------------------------ 
+                    post_details Style 
+------------------------------------------------------------------- */
+ #post_details{
+     min-height: 1400px;
+}
+
+
+.single-post {
+  margin-top: 60px;
+}
+
+aside#secondary.widget-area {
+  margin-top: 115px;
+}
+.comments-link .screen-reader-text {
+  display: none;
+}
+
+.admin-post-txt span.byline {
+  padding: 0;
+}

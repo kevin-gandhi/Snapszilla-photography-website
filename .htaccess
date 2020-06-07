@@ -1,0 +1,20 @@
+
+# BEGIN WordPress
+# The directives (lines) between `BEGIN WordPress` and `END WordPress` are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /snapszilla/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /snapszilla/index.php [L]
+</IfModule>
+php_value upload_max_filesize 64M
+php_value post_max_size 64M
+php_value memory_limit 400M
+php_value max_execution_time 180
+php_value max_input_time 180
+
+# END WordPress
